@@ -8,7 +8,11 @@ function [tSNRvol tCNRvol]=tCNRperTimeVolume(params,varargin)
 % params.outputname='MB8';                  how you want the output to be saved
 %                                            can be left empty, in which case the output files are temp_
 % params.T2star=45;                         T2 start of gray matter of interest at a given field and resolution
-%                                            can be left empty, in which case 45 ms is used                 
+%                                            can be left empty, in which case 45 ms is used which is the 3T T2* GM           
+%                                            if doing the experiments at 7T
+%                                            the value shold be set to
+%                                            28-33ms
+%                                            
 % currently varargin is not really used
 
 

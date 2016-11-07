@@ -1,5 +1,8 @@
 function [sfs] = compute_sfs(meanimg, stdimg, csf, gm, brain)
 % Daniel Gomez 06.11.16
+% COMPUTE_SFS computes the Signal Fluctuation Sensitivity as described in:
+% DeDora 2016 - SFS: An Improved Metric for Optimizing Detection of RSNs.
+% doi:10.3389/fnins.2016.00180
 
 % meanimg, stdimg, csf, gm and brain are loaded niftis.
 % I assume that meanimg and stdimg were already registered to the
